@@ -1,5 +1,3 @@
-# Credit-Risk-Analytics
-
 <div align="center">
 
 # 💳 LendSight
