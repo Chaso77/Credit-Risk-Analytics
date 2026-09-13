@@ -306,13 +306,13 @@ Business Problem → Objectives → Data → Methodology → Data Preparation �
 
 Defines the business context, stakeholders, objectives, functional requirements, KPIs, and acceptance criteria.
 
-👉 View Business Requirements
+[View Business Requirements](Documetation/LendSight_Business_Requirements.pdf)
 
 ### Insights & Strategic Recommendations
 
 Documents the key portfolio observations and recommended management actions derived from the analysis.
 
-👉 View Insights & Recommendations
+[View Insights & Recommendations](Documetation/LendSight_Insights_and_Recommendations.pdf)
 
 # Technical Resources
 
