@@ -15,233 +15,395 @@
 
 ---
 
-### 📊 Executive Dashboard • Portfolio Risk • Delinquency • Recovery • Vintage Analysis • Customer Risk
+### 📊 Portfolio Risk • Delinquency • Recovery • Vintage Analysis • Customer Risk
 
 </div>
 
 ---
 
-# Overview
+# 📌 Overview
 
-Financial institutions process thousands of loans every month. As lending portfolios grow, monitoring portfolio performance, identifying emerging credit risks, and improving recovery strategies become increasingly complex.
+**LendSight** is an end-to-end **Credit Risk Analytics and Business Intelligence platform** designed to help lending organisations monitor portfolio performance, identify emerging credit risk, evaluate collections effectiveness, and support data-driven lending decisions.
 
-Without effective portfolio monitoring, organisations face rising defaults, increasing credit losses, inefficient collection activities, and delayed business decisions.
+The solution combines **SQL Server, Power Query, Power BI, DAX, and Excel** to transform lending data into an interactive risk-monitoring environment.
 
-**LendSight** was developed to address these challenges.
+Rather than focusing solely on historical reporting, LendSight provides a structured framework for analysing:
 
-This project is an end-to-end **Credit Risk Analytics Platform** built using **Microsoft Power BI**, providing decision-makers with a comprehensive view of portfolio performance through interactive dashboards, advanced analytics, and executive-level reporting.
+- Portfolio health
+- Exposure at Default (EAD)
+- Delinquency and Days Past Due (DPD)
+- Portfolio at Risk (PAR)
+- Probability of Default (PD)
+- Loss Given Default (LGD)
+- Recovery performance
+- Collection effectiveness
+- Vintage and cohort performance
+- Customer and loan-level risk
 
-Rather than simply visualising historical data, the platform enables proactive credit risk management by monitoring delinquency trends, portfolio quality, recovery performance, customer behaviour, and loan cohort performance throughout the lending lifecycle.
+The project demonstrates how modern analytics workflows can transform raw lending data into **decision-ready credit risk intelligence**.
 
----
-
-# Why This Project Matters
-
-Modern financial institutions depend on data-driven decision-making to minimise credit losses and maximise portfolio profitability.
-
-This solution empowers business users to:
-
-✅ Monitor portfolio health in real time
-
-✅ Identify high-risk loan products
-
-✅ Analyse delinquency trends
-
-✅ Evaluate collection effectiveness
-
-✅ Track recovery performance
-
-✅ Monitor Portfolio at Risk (PAR)
-
-✅ Perform Vintage & Cohort Analysis
-
-✅ Investigate customer-level credit risk
-
-✅ Support executive decision-making
+> **Note:** The dataset used in this project is simulated and is intended for portfolio demonstration, analytics practice, and educational purposes.
 
 ---
 
-# Business Problem
+# 🎯 Why LendSight Matters
 
-Banks, fintech companies, and digital lenders continuously manage the delicate balance between growing their loan portfolio and controlling credit risk.
+As lending portfolios grow, financial institutions and fintech companies need reliable visibility into portfolio quality and emerging risk.
 
-Traditional reporting methods often fail to provide timely visibility into:
+LendSight addresses common analytical challenges such as:
+
+✅ Monitoring portfolio performance
+
+✅ Identifying delinquency trends
+
+✅ Measuring credit exposure
+
+✅ Tracking Portfolio at Risk
+
+✅ Evaluating recovery performance
+
+✅ Measuring collection effectiveness
+
+✅ Comparing loan cohort performance
+
+✅ Identifying high-risk customers and loans
+
+✅ Supporting portfolio and collections decisions
+
+---
+
+# 🏦 Business Problem
+
+Banks, fintech companies, and digital lenders must balance **portfolio growth with effective credit risk management**.
+
+Traditional reporting approaches can make it difficult to quickly identify:
 
 - Rising delinquency
-- Increasing default rates
-- Poor recovery performance
-- Customer repayment behaviour
-- Portfolio quality over time
+- Deteriorating loan cohorts
+- Increasing default exposure
+- Weak collection performance
+- Poor recovery outcomes
+- High-risk customer segments
+- Concentrations of portfolio risk
 
-LendSight consolidates these insights into a single interactive reporting platform that supports both strategic and operational decision-making.
+LendSight consolidates these analytical requirements into a single interactive Power BI environment, allowing stakeholders to move from **portfolio monitoring → risk identification → investigation → business action**.
 
 ---
 
-# Project Objectives
+# 🎯 Project Objectives
 
-The dashboard was designed to:
+The platform was designed to:
 
-- Monitor portfolio performance
+- Monitor overall lending portfolio performance
 - Measure Exposure at Default (EAD)
-- Analyse Portfolio at Risk (PAR30, PAR60, PAR90 & PAR120)
-- Track collection effectiveness
+- Analyse Portfolio at Risk across multiple DPD thresholds
+- Monitor borrower delinquency behaviour
+- Measure default and probability of default
 - Evaluate recovery performance
-- Perform Vintage Analysis
-- Assess customer credit quality
+- Analyse collection effectiveness
+- Perform vintage and cohort analysis
+- Assess customer and loan-level risk
+- Support evidence-based lending and collections decisions
 
+---
 
-# Dashboard Preview
+# 📊 Dashboard
+
+LendSight contains five analytical views designed for different levels of portfolio investigation.
 
 ---
 
 ## 1️⃣ Executive Overview
 
-![Executive Overview](Screenshots/Executive%20Overview.png)
+![LendSight Executive Overview](Screenshots/LendSight_Executive%20Overview.png)
 
 ### Purpose
 
-Provides executives with a high-level summary of lending portfolio performance through key credit risk indicators, portfolio trends, and business KPIs.
+Provides an executive-level view of portfolio health using key lending and credit risk indicators.
+
+### Focus Areas
+
+- Portfolio exposure
+- Loan performance
+- Default behaviour
+- Recovery
+- Portfolio trends
+- Key risk KPIs
 
 ---
 
 ## 2️⃣ Delinquency & DPD Analysis
 
-![Delinquency](Screenshots/Delinquency.png)
+![LendSight Delinquency & DPD Analysis](Screenshots/LendSight_Deliquency%20%26%20DPD%20Analysis.png)
 
 ### Purpose
 
-Tracks borrower repayment behaviour using Days Past Due (DPD) and Portfolio at Risk (PAR) metrics to identify emerging credit risk.
+Analyses borrower repayment behaviour using **Days Past Due (DPD)** and Portfolio at Risk metrics.
+
+### Focus Areas
+
+- DPD distribution
+- Delinquency trends
+- PAR30
+- PAR60
+- PAR90
+- PAR120+
+- Emerging credit risk
 
 ---
 
 ## 3️⃣ Vintage Analysis
 
-![Vintage](Screenshots/Vintage.png)
+![LendSight Vintage Analysis](Screenshots/LendSight_Vintage%20Analysis.png)
 
 ### Purpose
 
-Measures loan cohort performance throughout the lending lifecycle using Months-on-Book (MOB) analysis.
+Evaluates the performance of loan cohorts over their lending lifecycle using **Months-on-Book (MOB)** analysis.
+
+### Focus Areas
+
+- Cohort performance
+- Default progression
+- Vintage deterioration
+- MOB behaviour
+- Comparison of origination cohorts
 
 ---
 
 ## 4️⃣ Collections & Recovery
 
-![Recovery](Screenshots/Recovery.png)
+![LendSight Collection & Recovery Analysis](Screenshots/LendSight_Collection%20%26%20Recovery%20Analysis.png)
 
 ### Purpose
 
-Evaluates recovery strategies, collection effectiveness, and net credit losses.
+Evaluates the effectiveness of collections and recovery activities.
+
+### Focus Areas
+
+- Amount due
+- Amount paid
+- Collection effectiveness
+- Recovery amount
+- Recovery rate
+- Net credit loss
 
 ---
 
 ## 5️⃣ Customer Risk Profile
 
-![Customer](Screenshots/Customer.png)
+![LendSight Customer Risk Profile](Screenshots/LendSight_Customer%20Risk%20Profile.png)
 
 ### Purpose
 
-Provides a 360° customer risk assessment using repayment history, exposure, probability of default, and loan status.
+Provides a customer and loan-level view of credit risk to support deeper portfolio investigation.
 
+### Focus Areas
 
-# Key Features
+- Customer exposure
+- Repayment behaviour
+- DPD
+- Default status
+- Risk indicators
+- Loan performance
 
-✔ Executive Portfolio Dashboard
+---
 
-✔ Credit Risk Monitoring
+# 📈 Key Risk Metrics
 
-✔ Exposure at Default (EAD)
+| Metric | Purpose |
+|---|---|
+| **Total Loans** | Measures portfolio volume |
+| **Total Customers** | Measures customer base |
+| **EAD** | Measures exposure associated with defaulted loans |
+| **Default Rate** | Measures portfolio default incidence |
+| **Recovery Rate** | Measures recovered exposure relative to EAD |
+| **Collection Effectiveness** | Measures collections against amounts due |
+| **PAR30** | Measures exposure/loans beyond 30 DPD |
+| **PAR60** | Measures exposure/loans beyond 60 DPD |
+| **PAR90** | Measures exposure/loans beyond 90 DPD |
+| **PAR120+** | Measures severe delinquency |
+| **PD** | Probability of Default |
+| **LGD** | Loss Given Default |
+| **Net Credit Loss** | Measures unrecovered exposure |
+| **Average DPD** | Indicates portfolio delinquency severity |
+| **MOB** | Measures loan lifecycle performance |
 
-✔ Portfolio at Risk (PAR30/PAR60/PAR90/PAR120)
+---
+
+# 🔍 Key Features
+
+✔ Executive Portfolio Monitoring
+
+✔ Credit Risk Analytics
+
+✔ Exposure at Default
+
+✔ Portfolio at Risk Analysis
+
+✔ Days Past Due Analysis
+
+✔ Default & Probability of Default
 
 ✔ Recovery Rate Analysis
 
 ✔ Collection Effectiveness
 
-✔ Days Past Due (DPD)
-
-✔ Vintage Analysis
-
-✔ Cohort Performance
+✔ Vintage & Cohort Analysis
 
 ✔ Customer Risk Profiling
 
-✔ Executive KPI Reporting
+✔ Dynamic DAX Measures
 
 ✔ Interactive Slicers
 
-✔ Drill-through Analysis
-
 ✔ Cross-filtering
 
-✔ Dynamic DAX Measures
-- Support data-driven lending decisions
+✔ Drill-through Analysis
+
+✔ Executive KPI Reporting
 
 ---
 
-# Key Performance Indicators
+# 🧮 Credit Risk Framework
 
-- Total Loans
+LendSight incorporates a structured credit risk measurement framework.
 
-- Total Customers
+### Probability of Default
 
-- Exposure at Default (EAD)
+**PD = Defaults ÷ Total Loans**
 
-- Default Rate
+### Loss Given Default
 
-- Recovery Rate
+**LGD = 1 − Recovery Rate**
 
-- Collection Effectiveness
+### Expected Credit Loss
 
-- Portfolio at Risk (PAR30)
+**ECL = PD × LGD × EAD**
 
-- Portfolio at Risk (PAR60)
+### Portfolio at Risk
 
-- Portfolio at Risk (PAR90)
+Portfolio risk is evaluated using multiple delinquency thresholds, including:
 
-- Portfolio at Risk (PAR120)
+**PAR30 → PAR60 → PAR90 → PAR120+**
 
-- Net Credit Loss
+This allows users to distinguish between early-stage delinquency and more severe portfolio deterioration.
 
-- Average Days Past Due
+---
 
-- Probability of Default (PD)
+# Project Documentation
 
-- Months-on-Book (MOB)
+The complete project documentation is available in the Documentation folder.
+
+### Project Report
+
+The flagship project document covering the complete analytics lifecycle:
+
+Business Problem → Objectives → Data → Methodology → Data Preparation → Data Model → Dashboard → KPIs → Insights → Recommendations → Technical Implementation → Limitations
+
+[View Project Report](Documentation/LendSight_Project_Report.pdf)
+
+### Business Requirements
+
+Defines the business context, stakeholders, objectives, functional requirements, KPIs, and acceptance criteria.
+
+👉 View Business Requirements
+
+### Insights & Strategic Recommendations
+
+Documents the key portfolio observations and recommended management actions derived from the analysis.
+
+👉 View Insights & Recommendations
+
+# Technical Resources
+
+The repository also contains the underlying SQL and DAX implementation.
+
+### SQL Analysis
+- Portfolio Overview
+- Credit Risk KPIs
+- PAR Analysis
+- Collections Analysis
+- Vintage Analysis
+
+### DAX Measures
+- Credit Risk DAX Measures
+- Power BI Dashboard
+- LendSight Power BI Dashboard
+- Dataset
+- Credit Risk Dataset
+
+# 🏗️ Analytics Architecture
+
+```text
+                    Raw Lending Data
+                           │
+                           ▼
+                  Data Validation
+                       (Excel)
+                           │
+                           ▼
+                 Data Transformation
+                   (Power Query)
+                           │
+                           ▼
+                  Data Model / Schema
+                           │
+                           ▼
+                    DAX Measures
+                     & KPIs
+                           │
+                           ▼
+              Interactive Power BI
+                    Dashboard
+                           │
+                           ▼
+             Risk Analysis & Insights
+                           │
+                           ▼
+             Business Decisions & Actions
+
+| Technology                       | Purpose                                    |
+| -------------------------------- | ------------------------------------------ |
+| **Microsoft Power BI**           | Dashboard development and visual analytics |
+| **Power Query**                  | Data transformation and ETL                |
+| **DAX**                          | Risk metrics and business calculations     |
+| **SQL Server**                   | Data preparation and analytical queries    |
+| **Microsoft Excel**              | Initial data validation and analysis       |
+| **Star Schema / Data Modelling** | Analytical model design                    |
 
 
-# Technology Stack
-
-| Tool | Purpose |
-|------|----------|
-| Microsoft Power BI | Dashboard Development |
-| Power Query | ETL & Data Cleaning |
-| DAX | Business Calculations |
-| SQL Server | Data Preparation |
-| Microsoft Excel | Initial Data Validation |
-| Star Schema | Data Modelling |
-
-
-# Architecture
-                     Raw Lending Data
-                            │
-                            ▼
-                    Data Validation (Excel)
-                            │
-                            ▼
-                  Data Transformation (Power Query)
-                            │
-                            ▼
-                    Star Schema Data Model
-                            │
-                            ▼
-                  DAX Measures & KPIs
-                            │
-                            ▼
-              Interactive Power BI Dashboard
-                            │
-                            ▼
-                  Business Insights & Decisions
-
+LendSight/
+│
+├── README.md
+│
+├── Dashboard/
+│   └── LendSight.pbix
+│
+├── Dataset/
+│   └── credit_risk_dataset.xlsx
+│
+├── SQL/
+│   ├── Portfolio_Overview.sql
+│   ├── Credit_Risk_KPIs.sql
+│   ├── PAR_Analysis.sql
+│   ├── Collections_Analysis.sql
+│   └── Vintage_Analysis.sql
+│
+├── DAX/
+│   └── Credit_Risk_Measures.md
+│
+├── Documentation/
+│   ├── LendSight_Project_Report.pdf
+│   ├── LendSight_Business_Requirements.pdf
+│   ├── LendSight_Data_Dictionary.pdf
+│   └── LendSight_Insights_and_Recommendations.pdf
+│
+└── Screenshots/
+    ├── Executive Overview.png
+    ├── Delinquency.png
+    ├── Vintage.png
+    ├── Recovery.png
+    └── Customer.png
 
 
 
