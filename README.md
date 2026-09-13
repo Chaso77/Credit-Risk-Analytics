@@ -329,9 +329,9 @@ The repository also contains the underlying SQL and DAX implementation.
 - [Credit Risk DAX Measures](DAX/Credit_Risk_Measures.md)
 
 ### Power BI Dashboard
-- LendSight Power BI Dashboard
+- [LendSight Power BI Dashboard](Dashboard/LendSight End-to-End Credit Risk Analytics Dashboard.pbix)
 ### Dataset
-- Credit Risk Dataset
+- [Credit Risk Dataset]
 
 # 🏗️ Analytics Architecture
 
