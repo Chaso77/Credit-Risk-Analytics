@@ -320,10 +320,10 @@ The repository also contains the underlying SQL and DAX implementation.
 
 ### SQL Analysis
 - [Portfolio Overview](SQL/Portfolio_Overview.sql)
-- Credit Risk KPIs
-- PAR Analysis
-- Collections Analysis
-- Vintage Analysis
+- [Credit Risk KPIs](SQL/Credit_Risk_KPIs.sql)
+- [PAR Analysis](SQL/PAR_Analysis.sql)
+- [Collections Analysis](SQL/Collections_Analysis.sql)
+- [Vintage Analysis](SQL/Vintage_Analysis)
 
 ### DAX Measures
 - Credit Risk DAX Measures
