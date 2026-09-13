@@ -319,7 +319,7 @@ Documents the key portfolio observations and recommended management actions deri
 The repository also contains the underlying SQL and DAX implementation.
 
 ### SQL Analysis
-- Portfolio Overview
+- [Portfolio Overview](SQL/Portfolio_Overview.sql)
 - Credit Risk KPIs
 - PAR Analysis
 - Collections Analysis
