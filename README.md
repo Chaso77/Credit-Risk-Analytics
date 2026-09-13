@@ -326,10 +326,11 @@ The repository also contains the underlying SQL and DAX implementation.
 - [Vintage Analysis](SQL/Vintage_Analysis)
 
 ### DAX Measures
-- Credit Risk DAX Measures
-- Power BI Dashboard
+- [Credit Risk DAX Measures](DAX/Credit_Risk_Measures.md)
+
+### Power BI Dashboard
 - LendSight Power BI Dashboard
-- Dataset
+### Dataset
 - Credit Risk Dataset
 
 # 🏗️ Analytics Architecture
