@@ -26,6 +26,7 @@
 - [Why LendSight Matters](#Why-LendSight-Matters)
 - [Business Problem](#Business-Problem)
 - [Project Objectives](#Project-Objectives)
+- [Dashboard](#Dashboard)
 
 # Overview
 
