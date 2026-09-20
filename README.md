@@ -21,6 +21,12 @@
 
 ---
 
+# Table of Content
+- [Overview](#Overview)
+- [Why LendSight Matters](#Why-LendSight-Matters)
+- [Business Problem](#Business-Problem)
+- [Project Objectives](#Project-Objectives)
+
 # Overview
 
 **LendSight** is an end-to-end **Credit Risk Analytics and Business Intelligence platform** designed to help lending organisations monitor portfolio performance, identify emerging credit risk, evaluate collections effectiveness, and support data-driven lending decisions.
