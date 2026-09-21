@@ -27,6 +27,30 @@
 - [Business Problem](#Business-Problem)
 - [Project Objectives](#Project-Objectives)
 - [Dashboard](#Dashboard)
+   - [Executive Overview](#Executive-Overview)
+   - [Delinquency & DPD Analysis](#Delinquency-&-DPD-Analysis)
+   - [Vintage Analysis](#Vintage-Analysis)
+   - [Collections & Recovery](#Collections-&-Recovery)
+   - [Customer Risk Profile](#Customer-Risk-Profile)
+- [Key Risk Metrics](#Key-Risk-Metrics)
+- [Key Features](#Key-Features)
+- [Credit Risk Framework](#Credit-Risk-Framework)
+- [Project Documentation](#Project-Documentation)
+   - [Project Report](#Project-Report)
+   - [Business Requirements](#Business-Requirements)
+   - [Insights & Strategic Recommendations](#Insights-&-Strategic-Recommendations)
+- [Technical Resources](#Technical-Resources)
+   - [SQL Analysis](#SQL-Analysis)
+   - [DAX Measures](#DAX-Measures)
+   - [Power BI Dashboard](#Power-BI-Dashboard)
+   - [Dataset](#Dataset)
+- [Tool Stack](#Tool-Stack)
+- [Business Questions Answered](#Business-Questions-Answered)
+- [Key Analytical Insights](#Key-Analytical-Insights)
+- [Strategic Recommendations](#Strategic-Recommendations)
+- [Future Enhancements](#Future-Enhancements)
+- [About the Author](#About-the-Author)
+- [Project](#Project)
 
 # Overview
 
@@ -337,6 +361,7 @@ The repository also contains the underlying SQL and DAX implementation.
 
 ### Power BI Dashboard
 - [LendSight Power BI Dashboard](<Dashboard/LendSight End-to-End Credit Risk Analytics Dashboard.pbix>)
+
 ### Dataset
 - [Credit Risk Dataset](Dataset/LendSight_Credit_Risk_Dataset.xlsx)
 
